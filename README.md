@@ -6,6 +6,8 @@ This is a Python script to export staking reports for tracking the dividends on 
 
 For now this script only works for the Chrome Browser and you might have to [download](https://chromedriver.storage.googleapis.com/index.html) a suitable Selenium driver if the available drivers do not work for you.
 
+If you don't have a Nash account yet, feel free to sign up [here](https://app.nash.io/create-account?code=2TnCEZ).
+
 ## Getting Started
 
 ### Prerequisites
