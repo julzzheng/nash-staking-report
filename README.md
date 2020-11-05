@@ -27,7 +27,7 @@ Parameters:
 1. ``start_time``: From which date to start to export the reports, e.g. 2019-09-01
 
 ````
-python staking_report --start_time=2019-09-01
+python staking_report.py --start_time=2019-09-01
 ````
 ### Login
 There are two ways to log in:
