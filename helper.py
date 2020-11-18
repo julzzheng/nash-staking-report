@@ -99,7 +99,7 @@ def get_staking_dividends(driver, url, time):
         dividends.append(tuple(row.findAll('td')[2].text.split()))
 
     return list(map(lambda div: pd.Series(
-        ['Interest Income', div[0], div[1], 'Nash Exchange', 'Staking dividend', str(time)], index=COLUMNS), dividends))
+        ['Dividends Income', div[0], div[1], 'Nash Exchange', 'Staking dividend', str(time)], index=COLUMNS), dividends))
 
 
 def wait_until_visible(driver, xpath, timeout=30, frequency=0.5):

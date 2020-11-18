@@ -4,7 +4,9 @@
 
 This is a Python script to export staking reports for tracking the dividends on external websites, e.g. on [CoinTracking](https://cointracking.info).
 
-For now this script only works for the Chrome Browser and you might have to [download](https://chromedriver.storage.googleapis.com/index.html) a suitable Selenium driver if the available drivers do not work for you.
+For now this script only works for the Chrome Browser and you have to download a suitable Selenium driver for this to work. 
+
+Then extract the driver into the target directory `nash-staking-report/bin` and rename it accordingly to your os like following: `chromedriver_<linux|mac|win32>`, e.g. chromedriver_win32. 
 
 If you don't have a Nash account yet, feel free to sign up [here](https://app.nash.io/create-account?code=2TnCEZ).
 
